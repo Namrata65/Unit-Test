@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Welcome from '../components/Welcome'; // Adjust the path if necessary
+import Welcome from '../components/Welcome'; 
 
 test('renders Welcome component', () => {
   render(<Welcome />);
